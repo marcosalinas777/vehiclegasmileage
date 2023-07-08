@@ -103,6 +103,18 @@ dfnew.loc[5]
 <br>
 <br>
 ![image](https://github.com/marcosalinas777/vehiclegasmileage/assets/95108103/3d8f978b-ce92-43b1-89ce-94ed612562c0)
+<br>
+<br>
+Even another way is to look if the Make columns contain a string with 'valiant' in it.
+<br>
+<br>
+df3=df[df['Make'].str.contains('Valiant')]
+<br>
+<br>
+df3
+<br>
+<br>
+![image](https://github.com/marcosalinas777/vehiclegasmileage/assets/95108103/c2480501-481b-445e-a7e0-6416282833a4)
 
 
 
